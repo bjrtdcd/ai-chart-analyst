@@ -82,8 +82,8 @@ cd backend
 pip install -r requirements.txt
 
 # Create .env file with your AI API credentials
-echo "AI_BASE_URL=https://inference.baseten.co/v1" > .env
-echo "AI_API_KEY=your_baseten_api_key_here" >> .env
+echo "AI_BASE_URL=https://openaicompatibleapi.com/v1" > .env
+echo "AI_API_KEY=api_key" >> .env
 echo "AI_MODEL=moonshotai/Kimi-K2.7-Code" >> .env
 
 # Start the backend
